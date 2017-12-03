@@ -11,7 +11,7 @@ import java.util.logging.Level;
 
 public class AnalyzerMain {
 
-    private static final String CMD_LINE_SYNTAX = "SpendVisualize -ac <argument> -p <argument> -cp <argument> [-b <argument>]";
+    private static final String CMD_LINE_SYNTAX = "SpendVisualize -ac <argument> -p <argument> -cp <argument> [optional: -b <argument>]";
 
     public static void main(String[] args) throws Exception{
         Options options = createOptions();
