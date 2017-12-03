@@ -1,7 +1,7 @@
 package com.mark.app;
 
 public class CompanyType {
-    
+
     private String prefixName;
     private String type;
 

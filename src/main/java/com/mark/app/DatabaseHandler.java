@@ -16,7 +16,7 @@ public class DatabaseHandler {
     final private static String TYPE_AMOUNT_QUERY = "INSERT INTO [MyDebitCard].[dbo].[TypeAmount] VALUES (?, ?)";
     final private static String DELETE_TYPE_AMOUNT = "DELETE FROM [MyDebitCard].[dbo].[TypeAmount]";
     final private static String DELETE_TRANSACTION = "DELETE FROM [MyDebitCard].[dbo].[Transaction]";
-    
+
     public static void insertDB(List<Metadata> metadatas) {
         Connection conn = null;
         PreparedStatement ps = null;
