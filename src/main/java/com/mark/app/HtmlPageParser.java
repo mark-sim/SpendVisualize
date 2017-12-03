@@ -13,8 +13,8 @@ public class HtmlPageParser {
 
     private static final String FRAME_ELEMENT = "tddetails";
     private static final String TD_PREFIX = "TD UNLIMITED";
-    private static final String TABLE_XPATH = "//table[contains(@class,'td-table')]//tbody/tr";
     private static final String EACH_COLUMN_XPATH = "td";
+    private static final String TABLE_XPATH = "//table[contains(@class,'td-table')]//tbody/tr";
     private static final int TD_NUM = 3;
 
     public static List<Metadata> transactionsPage(HtmlPage page) throws Exception {
