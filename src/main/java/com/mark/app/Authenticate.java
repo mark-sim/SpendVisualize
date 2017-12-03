@@ -4,6 +4,7 @@ import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.*;
 
 public class Authenticate {
+    
     private static String URL_TO_LOGIN = "https://easyweb.td.com";
     private static String accessCardNo;
     private static String password;
