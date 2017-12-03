@@ -45,6 +45,6 @@ public class Metadata {
     }
 
 
-    //No support for getMonth, getDay, getYear. Simply get the Calendar instance and use that.
+    // No support for getMonth, getDay, getYear. Simply get the Calendar instance and use that.
 
 }
