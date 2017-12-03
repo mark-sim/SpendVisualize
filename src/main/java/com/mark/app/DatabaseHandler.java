@@ -11,11 +11,12 @@ import java.util.List;
 import java.util.Map;
 
 public class DatabaseHandler {
-    private static Map<String, Double> typeAmount = new HashMap<String,Double>();
+    
     final private static String TRANSACTION_QUERY = "INSERT INTO [MyDebitCard].[dbo].[Transaction] VALUES (?, ?, ?, ?, ?)";
     final private static String TYPE_AMOUNT_QUERY = "INSERT INTO [MyDebitCard].[dbo].[TypeAmount] VALUES (?, ?)";
     final private static String DELETE_TYPE_AMOUNT = "DELETE FROM [MyDebitCard].[dbo].[TypeAmount]";
     final private static String DELETE_TRANSACTION = "DELETE FROM [MyDebitCard].[dbo].[Transaction]";
+    private static Map<String, Double> typeAmount = new HashMap<String,Double>();
 
     public static void insertDB(List<Metadata> metadatas) {
         Connection conn = null;
