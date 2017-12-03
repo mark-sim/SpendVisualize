@@ -15,10 +15,10 @@ import java.util.concurrent.TimeUnit;
 
 public class InfluxDBHandler {
 
-    private static Map<String, Double> typeAmount = new HashMap<String,Double>();
     private static final String CONNECTION_URL = "http://localhost:8086";
     private static final String DEFAULT_USER = "root";
     private static final String DEFAULT_PASS = "root";
+    private static Map<String, Double> typeAmount = new HashMap<String,Double>();
 
     public static void insertIntoInfluxDB(List<Metadata> metadatas) {
         InfluxDB influxDB = InfluxDBFactory.connect(CONNECTION_URL, DEFAULT_USER, DEFAULT_PASS);
