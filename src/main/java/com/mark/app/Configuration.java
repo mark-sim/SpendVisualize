@@ -8,8 +8,8 @@ import java.util.List;
 
 public class Configuration {
 
-    // configFile must have the following properties:
-    // <Key:prefixName of the company> :: <Value:Type of the company> one for each line.
+    // configFile must have the following properties :
+    // <Key:prefixName of the company> = <Value:Type of the company> one for each line.
     private static String configFile;
     private static List<CompanyType> companyTypes = new ArrayList<CompanyType>();
 
