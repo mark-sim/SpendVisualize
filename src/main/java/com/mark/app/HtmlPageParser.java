@@ -53,13 +53,16 @@ public class HtmlPageParser {
                 String date = tdTags.get(0).getTextContent().trim();
                 //Name
                 String name = tdTags.get(1).getTextContent().trim();
-                //Type
-                String type = Configuration.check(name);
+                //Type and prefix name
+                String typeAndPrefixName[] = Configuration.check(name).split("=");
+                String type = typeAndPrefixName[0];
+                String prefixName = typeAndPrefixName[1];
+
                 //amount spent
                 String amountStr = tdTags.get(2).getTextContent().trim();
                 if (!amountStr.equals("")) {
                     amount = Double.parseDouble(amountStr);
-                    Metadata metadata = new Metadata(calendarFormat(date), name, type, amount);
+                    Metadata metadata = new Metadata(calendarFormat(date), name, type, amount, prefixName);
                     metadatas.add(metadata);
                 }
             }

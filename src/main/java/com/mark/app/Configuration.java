@@ -46,7 +46,8 @@ public class Configuration {
         }
     }
 
-    //returns type of company("fullName") specified by the config file.
+    //returns type of company("fullName") and prefixName specified by the config file.
+    //They are separated by equals sign, which must be split later.
     public static String check(String fullName) {
         int length = companyTypes.size();
         for(int i=0; i<length; i++) {
@@ -54,10 +55,10 @@ public class Configuration {
             String prefixName = ct.getPrefixName();
             if(fullName.contains(prefixName)) {
                 transposeHeuristic(i);
-                return ct.getType();
+                return ct.getType() + "=" + prefixName;
             }
         }
-        return "UNKNOWN";
+        return "UNKNOWN=UNKNOWN";
     }
 
     public static void writeBack() {

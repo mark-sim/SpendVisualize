@@ -8,16 +8,22 @@ public class Metadata {
     private String name;
     private String type;
     private Double amount;
+    private String prefixName;
 
-    public Metadata(Calendar date, String name, String type, Double amount) {
+    public Metadata(Calendar date, String name, String type, Double amount, String prefixName) {
         this.date = date;
         this.name = name;
         this.type = type;
         this.amount = amount;
+        this.prefixName = prefixName;
     }
 
     public Metadata getMetadata() {
         return this;
+    }
+
+    public String getPrefixName() {
+        return this.prefixName;
     }
 
     public Double getAmount() {

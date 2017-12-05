@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 public class DatabaseHandler {
-    
+
     final private static String TRANSACTION_QUERY = "INSERT INTO [MyDebitCard].[dbo].[Transaction] VALUES (?, ?, ?, ?, ?)";
     final private static String TYPE_AMOUNT_QUERY = "INSERT INTO [MyDebitCard].[dbo].[TypeAmount] VALUES (?, ?)";
     final private static String DELETE_TYPE_AMOUNT = "DELETE FROM [MyDebitCard].[dbo].[TypeAmount]";

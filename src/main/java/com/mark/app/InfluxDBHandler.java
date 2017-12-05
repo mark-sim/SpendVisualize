@@ -40,9 +40,11 @@ public class InfluxDBHandler {
             String type = m.getType();
             Double amount = m.getAmount();
             Date date = m.getDate().getTime();
+            String prefixName = m.getPrefixName();
 
             Point point = Point.measurement("transaction")
                                                 .time(date.getTime(), TimeUnit.MILLISECONDS)
+                                                .tag("Prefix", prefixName)
                                                 .addField("Name", name)
                                                 .addField("Type", type)
                                                 .addField("Amount", amount)
