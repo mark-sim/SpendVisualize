@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a36af858-82fb-4ba3-bf1f-15e0e20df7fc" name="Default" comment="" />
+    <list default="true" id="a36af858-82fb-4ba3-bf1f-15e0e20df7fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -217,7 +219,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="541" />
     <option name="y" value="11" />
     <option name="width" value="1107" />
@@ -506,15 +508,15 @@
       <workItem from="1512964892760" duration="137000" />
       <workItem from="1512965816539" duration="3698000" />
       <workItem from="1518065686022" duration="68000" />
-      <workItem from="1520475653231" duration="807000" />
+      <workItem from="1520475653231" duration="949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92448000" />
+    <option name="totallyTimeSpent" value="92590000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="541" y="11" width="1107" height="1007" extended-state="0" />
+    <frame x="541" y="11" width="1107" height="1007" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

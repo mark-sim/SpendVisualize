@@ -29,15 +29,27 @@ CompanyName2 = Type Of Company
 
 For example,
 ```
-UberEats=Food
-Cineplex=Entertainment
+UberEats = Food
+Cineplex = Entertainment
 ```
 
 After you run the program, you will see something like:  
 
-Transaction data in Table:  
+Transaction data in Table (each transaction) :  
+
+
+
+Transaction data in Table (organized by type) :
+
 
 
 
 
 Transaction data in Graph:
+
+
+
+
+
+I can see that I spent around $1700 in just one month...
+I really need to start spending more efficiently...
