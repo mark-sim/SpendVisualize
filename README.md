@@ -34,21 +34,19 @@ Cineplex = Entertainment
 ```
 
 After you run the program, you will see something like:  
+(If you can't see the pics, try clicking it)
 
 Transaction data in Table (each transaction) :  
-CLICK TO SEE BETTER QUALITY PICS  
 
 <img src ="https://raw.githubusercontent.com/marksim5/SpendVisualize/master/demo/DailyTransactionTable.png" width = "600" height = "350"/>  
 
 Transaction data in Table (organized by type) :  
-CLICK TO SEE BETTER QUALITY PICS  
 
 
 <img src ="https://raw.githubusercontent.com/marksim5/SpendVisualize/master/demo/TypeTransactionTable.png" width = "600" height = "300"/>   
 
 
-Transaction data in Graph:  
-CLICK TO SEE BETTER QUALITY PICS  
+Transaction data in Graph:    
 
 
 <img src ="https://raw.githubusercontent.com/marksim5/SpendVisualize/master/demo/GraphTransactionTable.png" width = "600" height = "250"/>  
