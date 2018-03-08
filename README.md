@@ -37,18 +37,18 @@ After you run the program, you will see something like:
 
 Transaction data in Table (each transaction) :  
 
-<img src ="https://github.com/marksim5/SpendVisualize/blob/master/demo/DailyTransactionTable.png?raw=true" width = "600" height = "150"/>  
+<img src ="https://github.com/marksim5/SpendVisualize/blob/master/demo/DailyTransactionTable.png?raw=true" width = "600" height = "350"/>  
 
 Transaction data in Table (organized by type) :
 
 
-<img src ="https://github.com/marksim5/SpendVisualize/blob/master/demo/TypeTransactionTable.png?raw=true" width = "600" height = "100"/>   
+<img src ="https://github.com/marksim5/SpendVisualize/blob/master/demo/TypeTransactionTable.png?raw=true" width = "600" height = "300"/>   
 
 
 Transaction data in Graph:
 
 
-<img src ="https://github.com/marksim5/SpendVisualize/blob/master/demo/GraphTransactionTable.png?raw=true" width = "600" height = "100"/>  
+<img src ="https://github.com/marksim5/SpendVisualize/blob/master/demo/GraphTransactionTable.png?raw=true" width = "600" height = "250"/>  
 
 
 I can see that I spent around $1700 in just one month...
