@@ -1,8 +1,0 @@
-com\mark\app\DatabaseHandler.class
-com\mark\app\CompanyType.class
-com\mark\app\Configuration.class
-com\mark\app\HtmlPageParser.class
-com\mark\app\Authenticate.class
-com\mark\app\InfluxDBHandler.class
-com\mark\app\AnalyzerMain.class
-com\mark\app\Metadata.class
