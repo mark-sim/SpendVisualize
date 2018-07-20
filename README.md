@@ -34,8 +34,8 @@ Cineplex = Entertainment
 ```
 
 After you run the program, you will see something like:  
-(If you can't see the pics, try clicking it)
 
+#### (If you can't see the pics, try clicking it)
 Transaction data in Table (each transaction) :  
 
 <img src ="https://raw.githubusercontent.com/marksim5/SpendVisualize/master/demo/DailyTransactionTable.png" width = "600" height = "350"/>  
